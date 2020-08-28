@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)">
+    <classes>
+      <class name="com.wbl.Test.HomePageTest">
+        <methods>
+          <include name="slideTest"/>
+          <include name="beforeSuite"/>
+          <include name="socialLinkCount"/>
+          <include name="beforeClass"/>
+          <include name="afterClass"/>
+          <include name="afterclass"/>
+          <include name="afterMethod"/>
+          <include name="slideCountTest"/>
+        </methods>
+      </class> <!-- com.wbl.Test.HomePageTest -->
+    </classes>
+  </test> <!-- Test(failed) -->
+  <test thread-count="5" name="test1(failed)">
+    <classes>
+      <class name="com.wbl.Test.ResourceTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="toolsTesting"/>
+          <include name="printTest"/>
+          <include name="resourceTest"/>
+          <include name="toolsCountTest"/>
+          <include name="afterclass"/>
+          <include name="afterMethod"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.wbl.Test.ResourceTest -->
+    </classes>
+  </test> <!-- test1(failed) -->
+  <test thread-count="5" name="Test2(failed)">
+    <classes>
+      <class name="com.wbl.Test.LoginPageTest">
+        <methods>
+          <include name="beforeSuite"/>
+          <include name="loginTest"/>
+          <include name="afterclass"/>
+          <include name="afterMethod"/>
+          <include name="testLogin"/>
+          <include name="beforeMethod"/>
+        </methods>
+      </class> <!-- com.wbl.Test.LoginPageTest -->
+    </classes>
+  </test> <!-- Test2(failed) -->
+</suite> <!-- Failed suite [Suite] -->
